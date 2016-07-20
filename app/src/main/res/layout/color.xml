@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/color">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#ae1534"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ff7f50" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ffff66" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#A4FF52" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#1534ae" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#ffe9d3"
+        android:id="@+id/red"
+        android:text="#ae1534\nRED"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/color" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#ffe9d3"
+        android:layout_below="@id/red"
+        android:id="@+id/oran"
+        android:text="#ff7f50\nOREANGE"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/color" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#ffe9d3"
+        android:layout_below="@id/oran"
+        android:text="#ffff66\nYELLOW"
+        android:id="@+id/yell"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/color" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#ffe9d3"
+        android:layout_below="@id/yell"
+        android:text="#a4ff52\nGREEN"
+        android:textSize="25dp"
+        android:id="@+id/green"
+        android:layout_toRightOf="@id/color" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#ffe9d3"
+        android:layout_below="@id/green"
+        android:text="#1534ae\nBLUE"
+        android:textSize="25dp"
+        android:id="@+id/blue"
+        android:layout_toRightOf="@id/color" />
+
+</RelativeLayout>

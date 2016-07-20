@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.manylayout.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="\n  Numbers"
+        android:textSize="26dp"
+        android:background="#C1A8E9"
+        android:textColor="#ffffff"
+        android:id="@+id/number"
+        android:onClick="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="\n  Family"
+        android:textSize="26dp"
+        android:background="#E57373"
+        android:textColor="#ffffff"
+        android:layout_below="@id/number"
+        android:id="@+id/family"
+        android:onClick="family"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="\n  Colors"
+        android:textSize="26dp"
+        android:background="#C70445"
+        android:textColor="#ffffff"
+        android:layout_below="@id/family"
+        android:id="@+id/color"
+        android:onClick="color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="\n  Place"
+        android:textSize="26dp"
+        android:background="#56084A"
+        android:textColor="#ffffff"
+        android:layout_below="@id/color"
+        android:id="@+id/place"
+        android:onClick="number"/>
+
+    </RelativeLayout>
